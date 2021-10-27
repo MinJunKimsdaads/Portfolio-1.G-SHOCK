@@ -1,0 +1,12 @@
+(function($){
+    window.feedURL = 'http://www.casio-intl.com/asia-mea/en/news.xml';
+    window.formatDate = function(date){
+        var mNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            dates = new Date(date),
+            day = dates.getDate(),
+            // month = dates.getMonth() + 1,
+            month = mNames[dates.getMonth()],
+            year = dates.getFullYear();
+        return month +' '+day+', '+year;
+    }
+})(jQuery);
