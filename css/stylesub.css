@@ -13,6 +13,26 @@ ul, li, ol {
   list-style: none;
 }
 
+header li:hover {
+  cursor: pointer;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+section h3:hover {
+  cursor: pointer;
+}
+
+footer p, h3, img:hover {
+  cursor: pointer;
+}
+
+footer #index li:hover {
+  cursor: pointer;
+}
+
 
 #wrap {
   margin: 0;
