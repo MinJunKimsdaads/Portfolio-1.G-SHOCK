@@ -2,6 +2,18 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -13,7 +25,7 @@ ul, li, ol {
   list-style: none;
 }
 
-header li:hover {
+/* header li:hover {
   cursor: pointer;
 }
 
@@ -27,9 +39,13 @@ section h3:hover {
 
 footer p, h3, img:hover {
   cursor: pointer;
-}
+} */
 
 footer #index li:hover {
+  cursor: pointer;
+}
+
+footer button:hover {
   cursor: pointer;
 }
 
@@ -62,6 +78,10 @@ footer #index li:hover {
   font-size: 16px;
 }
 
+.roll a:visited {
+  color: white;
+}
+
 header #nav_1 {
   font-family: 'Noto Sans Display', sans-serif;
   /* font-size: 16px; */
@@ -82,11 +102,6 @@ header #nav_1 ul li {
   padding-right: 20px;
 }
 
-header #nav_1 ul li:hover {
-  color: blue;
-  /* font-size: 20px; */
-}
-
 header #nav_2 {
   float: right;
   font-family: 'Noto Sans Display', sans-serif;
@@ -102,11 +117,6 @@ header #nav_2 ul li {
   float: left;
   /* color: black; */
   padding-left: 20px;
-}
-
-header #nav_2 ul li:hover {
-  color: blue;
-  /* font-size: 20px; */
 }
 
 header #logo {
@@ -174,9 +184,9 @@ section #description h1 {
   line-height: 0;
 }
 
-section #description h1:hover {
+/* section #description h1:hover {
   color:blue;
-}
+} */
 
 section #description ul {
   width: 1618px;
@@ -277,10 +287,10 @@ section #description  ul li h3 {
   margin: 0;
 }
 
-section #description  ul li h3:hover {
+/* section #description  ul li h3:hover {
   color:blue;
 
-}
+} */
 
 section #description ul li img {
   width: 100%;
@@ -316,9 +326,9 @@ section #article_1 h1 {
   line-height: 0;
 }
 
-section #article_1 h1:hover {
+/* section #article_1 h1:hover {
   color:blue;
-}
+} */
 
 section #article_1 ul {
   width: 1618px;
@@ -414,9 +424,9 @@ section #article_1 ul li h3 {
   margin: 0;
 }
 
-section #article_1 ul li h3:hover {
+/* section #article_1 ul li h3:hover {
   color:blue;
-}
+} */
 
 section #article_1 ul li p {
   font-size: 14px;
@@ -427,9 +437,9 @@ section #article_1 ul li p {
   /* line-height: 0; */
 }
 
-section #article_1 ul li p:hover {
+/* section #article_1 ul li p:hover {
   color:blue;
-}
+} */
 
 section #article_2 {
   width: 100%;
@@ -450,9 +460,9 @@ section #article_2 h1 {
   line-height: 0;
 }
 
-section #article_2 h1:hover {
+/* section #article_2 h1:hover {
   color:blue;
-}
+} */
 
 section #article_2 ul {
   width: 1618px;
@@ -546,9 +556,9 @@ section #article_2 ul li h3 {
   margin: 0;
 }
 
-section #article_2 ul li h3:hover {
+/* section #article_2 ul li h3:hover {
   color:blue;
-}
+} */
 
 section #article_3 {
   width: 100%;
@@ -568,9 +578,9 @@ section #article_3 {
   line-height: 0;
 }
 
-#title_article_3:hover {
+/* #title_article_3:hover {
   color:blue;
-}
+} */
 
 section #article_3 ul {
   width: 1618px;
@@ -584,17 +594,17 @@ section #article_3 ul #first {
   width: 50%;
   height: 100%;
   float: left;
-  /* margin-right: 1px; */
+  padding-right: 20px;
   /* background-color: red; */
+  overflow: hidden;
 }
 
 section #article_3 ul #first div {
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  /* background-color: black; */
-  padding: 2.5%;
-  
+  background-color: black;
+  overflow: hidden;
 }
 
 section #article_3 ul #first div img {
@@ -611,6 +621,7 @@ section #article_3 ul #second {
   width: 50%;
   height: 50%;
   float: right;
+  padding-bottom: 10px;
   /* margin-left: 5px; */
   /* margin-bottom: 5px; */
   /* background-color: yellow; */
@@ -626,7 +637,7 @@ section #article_3 ul #second div {
   margin: 0 auto;
   /* background-color: black; */
   /* overflow: hidden; */
-  padding: 2.5%;
+  overflow: hidden;
 }
 
 section #article_3 ul #second div img {
@@ -637,7 +648,6 @@ section #article_3 ul #second div img {
 #second div img:hover {
   transform:scale(1.05);
   transition: transform.3s;
-
 }
 
 /* section #article_3 ul #second video {
@@ -649,6 +659,8 @@ section #article_3 ul #third {
   width: 50%;
   height: 50%;
   float: right;
+  overflow: hidden;
+  padding-top: 10px;
   /* margin-left: 5px;
   margin-top: 5px; */
   /* background-color: green; */
@@ -660,7 +672,6 @@ section #article_3 ul #third div {
   float: right;
   margin-bottom: 0;
   margin-right: 0;
-  padding: 2.5%;
   /* margin-left: 5px;
   margin-top: 5px; */
   /* background-color: black; */
@@ -687,32 +698,76 @@ section #article_3 ul #third img {
 
 footer {
   width: 100%;
-  height: 700px;
+  height: 400px;
   background-color: black;
   position: relative;
-  top: 435px;
+  top: 350px;
+}
+
+footer hr {
+  height: 0.1px;
+  background-color: gray;
+  border: none;
+}
+
+footer #index #hr_1 {
+  margin-left: 0;
+  width: 175px;
+}
+
+footer #index #hr_2 {
+  margin-left: 0;
+  width: 185px;
+}
+
+footer #index #hr_3 {
+  margin-left: 0;
+  width: 190px;
+}
+
+footer #index #hr_4 {
+  margin-left: 0;
+  width: 180px;
 }
 
 footer #index {
   width: 1618px;
-  height: 280px;
-  margin: 0 auto;
-  /* background-color: black; */
+  height: 100px;
+  margin: 20px auto;
 }
 
 footer #index ul {
+  width: 250px;
   color: white;
   float: left;
+  margin: 20px auto;
+}
+
+footer #index ul:first-child {
   margin-left: 0;
-  margin-right: 150px;
-  margin-top: 30px;
+}
+
+footer #index ul:nth-child(2) {
+  margin-left: 206px;
+}
+
+footer #index ul:nth-child(3) {
+  margin-left: 206px;
+}
+
+footer #index ul:nth-child(4) {
+  margin-left: 206px;
 }
 
 footer #index ul li {
+  width: 40%;
   font-family: 'Noto Sans Display', sans-serif;
   font-size: 18px;
   color: gray;
+  display: inline-block;
+  /* background-color: red; */
 }
+
 
 footer #index ul li:hover {
   text-decoration-line: underline;
@@ -721,30 +776,22 @@ footer #index ul li:hover {
 
 footer #icon {
   width: 1618px;
-  height: 200px;
-  margin: 0 auto;
-  margin-top: 50px;
-  /* background-color: white; */
+  height: 20px;
+  margin: 30px auto;
+  /* margin-top: 30px; */
 }
 
 footer #icon #icon2 {
-  width: 60px;
-  height: 60px;
-  float: right;
-  position: relative;
-  top: 100%;
-  transform: translate(0, -100%);
-  right:0;
-  /* background-color: violet; */
-  /* margin-top: 50px;
-  margin-left: 250px; */
-}
-
-/* footer #icon #icon2 {
   width: 30px;
   height: 30px;
-  margin-top: 20px; 
-}  */
+  /* background-color: pink; */
+  float: right;
+  position: relative;
+  top:60%;
+  /* transform: translate(0, -120%); */
+  right:0%;
+  
+}
 
 footer #icon div img {
   width: 100%;
@@ -755,13 +802,15 @@ footer #icon #info ul {
   text-align: left;
   color: gray;
   font-family: 'Noto Sans Display', sans-serif;
+  line-height: 30px;
 }
 
 footer #icon #info ul #button {
   width: 50px;
   height: 50px;
-  margin: 0 auto;
-  padding: 0;
+  position: absolute;
+  top: 58%;
+  left: 97%;
 }
 
 footer #icon #info ul #button button {
