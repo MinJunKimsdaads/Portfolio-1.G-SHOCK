@@ -9,12 +9,12 @@
   <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jQuery&logoColor=white"/>
 </div>
 
-###소요기간
+### 소요기간
 3days
 
-###소감
+### 소감
 1. html, css 코드를 줄일 수 있는 방법이 있었으면 좋겠다.
 2. 제이쿼리는 자바스크립트보다 편하다.
 3. 페이지가 다양해질 수록 이벤트 리스너가 많아져서 보기 않좋음
 
-###2023-10-19 노션 -> git으로 이동
+### 2023-10-19 노션 -> git으로 이동
