@@ -19,6 +19,8 @@
 
 <img src="https://private-user-images.githubusercontent.com/93234895/291069741-e419161d-56c5-4a0d-ad5b-5fccedd1890f.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDI4MjUxNDQsIm5iZiI6MTcwMjgyNDg0NCwicGF0aCI6Ii85MzIzNDg5NS8yOTEwNjk3NDEtZTQxOTE2MWQtNTZjNS00YTBkLWFkNWItNWZjY2VkZDE4OTBmLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjE3VDE0NTQwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI1NjQyY2RlYTY0MWY0NzI5NDMzYjUxNTcxOTFmY2ZhNTJhNWNhNDVlNTBkODkxYjllMWIzMTE4MGE0MzcyYWYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.lMGVmd3WRQtFm5XKkyK-iWjcLZZwB29IC9047533Rfk">
 
+<img src="http://aaeexx.dothome.co.kr/project/image/gshock/2.gif">
+
 <a href="https://minjunkimsdaads.github.io/Portfolio-1.G-SHOCK/">Demo1</a>
 <a href="https://minjunkimsdaads.github.io/Portfolio-1.G-SHOCK/sub1.html">Demo1</a>
 
