@@ -17,8 +17,6 @@
 <p>2. 제이쿼리는 자바스크립트보다 편하다.</p>
 <p>3. 페이지가 다양해질 수록 이벤트 리스너가 많아져서 보기 않좋음</p>
 
-<img src="http://aaeexx.dothome.co.kr/project/image/gshock/1.gif">
-
 <a href="https://minjunkimsdaads.github.io/Portfolio-1.G-SHOCK/">Demo1</a>
 <a href="https://minjunkimsdaads.github.io/Portfolio-1.G-SHOCK/sub1.html">Demo1</a>
 
